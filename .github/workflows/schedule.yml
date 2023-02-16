@@ -6,6 +6,7 @@ on:
   repository_dispatch:
     types: ["Cloudflare"]
   workflow_dispatch:
+    types: ["Cloudflare"]
 jobs:
   update-gist:
     runs-on: ubuntu-latest
